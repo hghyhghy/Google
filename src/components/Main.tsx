@@ -44,12 +44,12 @@ const Main: React.FC = () => {
     
     return (
         <div className="flex flex-col items-center mt-28">
-            <Image
-                src={googleLogo}
-                alt="logo"
-                width={270}
-                height={100}
-            />
+           <Image
+             src={googleLogo}
+              alt="logo&apos;"
+              width={270}
+              height={100}
+           />
             <form onSubmit={(e) => onSearchSubmit(e)} className="flex border mt-7 px-5 py-2 rounded-full w-2/5 items-center hover:shadow-md">
                 <AiOutlineSearch className="text-xl text-slate-400" />
                 <input 
