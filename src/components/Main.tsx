@@ -70,6 +70,8 @@ const Main: React.FC = () => {
                     />
 
                 }
+
+                 <AiFillCamera className="text-3xl text-slate-400" />
                
             </form>
             <div className="flex mt-7">
