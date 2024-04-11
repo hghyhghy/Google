@@ -46,7 +46,7 @@ const Main: React.FC = () => {
         <div className="flex flex-col items-center mt-28">
            <Image
              src={googleLogo}
-              alt="logo&apos;"
+             alt="g"
               width={270}
               height={100}
            />
